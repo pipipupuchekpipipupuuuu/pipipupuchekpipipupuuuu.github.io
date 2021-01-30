@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>E-commerce project</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/checkbox.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com"> 
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="body-wrapper">
+
+		<header class="header">
+			<div class="logo">Птеродактель.ru</div>
+			<div class="input-box">
+				<input 
+					type="text" 
+					class="input" 
+					placeholder="Найдется все..." 
+				/>
+				<div class="input-btn">
+					<img src="img/loupe.png" alt="Поиск">
+				</div>
+			</div>
+			<div class="cart">
+				<img src="img/add-to-basket.png" alt="Корзина">
+			</div>
+		</header>
+
+		<aside class="left-aside">
+			<div class="aside-maintitle">Фильтры</div>
+			<div class="aside-title">Бренд</div>
+			<div class="aside-item">
+				<input type="checkbox" id='nike' name="nike" class="checkbox">
+				<label for="nike"></label>
+				Nike
+			</div>
+			<div class="aside-item">
+				<input type="checkbox" id='adidas' name="adidas" class="checkbox">
+				<label for="adidas"></label>
+				Adidas
+			</div>
+			<div class="aside-item">
+				<input type="checkbox" id='vans' name="vans" class="checkbox">
+				<label for="vans"></label>
+				Vans
+			</div>
+		</aside>
+
+		<main class="main">
+			<h2 class="title">Популярные</h2>
+			<div class="product-box">
+
+				<div class="product">
+					<div class="product-info">White, Photon Blue & Black</div>
+					<div class="product-title">Nike Waffle Racer Crater W</div>
+					<img src="img/nike1.jpg" alt="Nike Waffle Racer Crater W">
+					<div class="product-info">Стоимость</div>
+					<div class="product-price">9999р</div>
+
+					<div class="input-btn add-btn">
+						<img src="img/add.png" alt="Добавить в корзину">
+					</div>
+				</div>
+
+				<div class="product">
+					<div class="product-info">Starfish & Black</div>
+					<div class="product-title">Nike Air Force 1 07 Skeleton QS</div>
+					<img src="img/nike2.jpg" alt="Nike Air Force 1 07 Skeleton QS">
+					<div class="product-info">Стоимость</div>
+					<div class="product-price">12999р.</div>
+
+					<div class="input-btn add-btn">
+						<img src="img/add.png" alt="Добавить в корзину">
+					</div>
+				</div>
+
+				<div class="product">
+					<div class="product-info">Blue, Black & White</div>
+					<div class="product-title">Nike SB Zoom Blazer Mid Invert</div>
+					<img src="img/nike3.jpg" alt="Nike SB Zoom Blazer Mid Invert">
+					<div class="product-info">Стоимость</div>
+					<div class="product-price">8999р.</div>
+
+					<div class="input-btn add-btn">
+						<img src="img/add.png" alt="Добавить в корзину">
+					</div>
+				</div>
+
+				<div class="product">
+					<div class="product-info">Sand Taupe</div>
+					<div class="product-title">Adidas Yeezy Boost 350 V2</div>
+					<img src="img/adidas1.jpg" alt="Yeezy Boost 350 V2">
+					<div class="product-info">Стоимость</div>
+					<div class="product-price">16899р.</div>
+
+					<div class="input-btn add-btn">
+						<img src="img/add.png" alt="Добавить в корзину">
+					</div>
+				</div>
+
+				<div class="product">
+					<div class="product-info">Frozen Blue</div>
+					<div class="product-title">Adidas Yeezy QNTM</div>
+					<img src="img/adidas2.jpg" alt="Frozen Blue">
+					<div class="product-info">Стоимость</div>
+					<div class="product-price">16899р.</div>
+
+					<div class="input-btn add-btn">
+						<img src="img/add.png" alt="Добавить в корзину">
+					</div>
+				</div>
+
+				<div class="product">
+					<div class="product-info">Multi & Navy</div>
+					<div class="product-title">Vans Vault Old Skool LX</div>
+					<img src="img/vans1.jpg" alt="Vans Vault Old Skool LX">
+					<div class="product-info">Стоимость</div>
+					<div class="product-price">7899р.</div>
+
+					<div class="input-btn add-btn">
+						<img src="img/add.png" alt="Добавить в корзину">
+					</div>
+				</div>
+
+			</div>
+		</main>
+		<aside class="right-aside">
+			<div class="product js-product">
+				<div class="product-info">Multi & Navy</div>
+				<div class="product-title">Vans Vault Old Skool LX</div>
+				<img src="img/vans1.jpg" alt="Vans Vault Old Skool LX">
+				<div class="product-info">Стоимость</div>
+				<div class="product-price">7899р.</div>
+			
+				<div class="size-box">
+					<div class="size size__active">39</div>
+					<div class="size">40</div>
+					<div class="size">41</div>
+					<div class="size">42</div>
+				</div>
+
+				<div class="big-add-btn">Купить</div>
+
+				<div class="product-info">Описание</div>
+				<div class="product-text">On-court legend turned skatepark go-to, the Blazer Mid has found a home in many venues since its introduction back in ’72. But it’s in Nike SB guise here, with a durable suede construction and Zoom Air cushioning destined for a life spent on a skateboard. The bold blue colourway reflects it, too, greatly deviating from the more muted palettes that conformed to basketball’s strict uniform codes at the time of the model’s debut.</div>
+
+			</div>
+		</aside>
+		<footer class="footer">
+			<div class="footer-title">Птеродактель.ru Inc.</div>
+			<div class="social-box"> 
+				<div class="social" herf='https://vk.com'>
+				 <img src="img/vk.png"alt="">
+				 <div class="social" herf='https://instagram.com'>
+				 <img src="img/instagram.png"alt="">
+				 <div class="social" herf='https://telegram.org'>
+				 <img src="img/telegram.png"alt="">
+		</footer>
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+	<!-- <script src='css/jquery.js'></script> -->
+
+	<script>
+		$(document).ready(function() {
+
+			let checks = {};
+
+			function doCheck() {
+				let val = $(this).prop('checked')
+				let label = $.trim( $(this).parent().text() )
+				label = label.toLowerCase();
+
+				checks[label] = val;
+
+				console.log(checks);
+				filter()
+			}
+
+			function filter() {
+
+				// перебираем все продукты
+				$('.product').each(function() {
+					// получаем наименование товара
+					let title = $(this).find('.product-title').text();
+					// приводим наименование к нижнему регистру
+					title = title.toLowerCase();
+
+					// отключаем отображение элемента
+					$(this).css('display', 'none');
+					
+					// перебираем все имена брендов и включаем отображение только тех 
+					// товаров, которые подходят под выбранные чекбоксы
+					for (let brand in checks) {
+						if (title.includes(brand) && checks[brand])
+							$(this).css('display', 'block')
+					}
+				})
+			}
+
+
+			$('.checkbox').each(function() {
+				$(this).attr('checked', 'checked');
+			})
+
+			$('.checkbox').each(doCheck)
+			$('.checkbox').click(doCheck)
+
+
+			$('.add-btn').click(function() {
+				alert('Добавлено')
+			})
+
+			$('.add-btn').click(function() {
+				let product = $(this).parent();
+
+				let src = $(product).find('img').attr('src')
+				let title = $(product).find('.product-title').text();
+				let info = $(product).find('.product-info').first().text();
+				let price = $(product).find('.product-price').text();
+
+				$('.js-product').find('img').attr('src', src)
+				$('.js-product').find('.product-title').text(title)
+				$('.js-product').find('.product-price').text(price)
+				$('.js-product').find('.product-info').first().text(info)
+			})
+
+			$('.size').click(function() {
+				$('.size').each(function() {
+					$(this).removeClass('size__active');
+				})
+				$(this).addClass('size__active');
+			})
+		})
+	</script>	
+
+</body>
+</html>
+
+
+
+
+				
